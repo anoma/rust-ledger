@@ -29,7 +29,7 @@ default = [ "transport_usb", "transport_tcp", "transport_ble", "transport_usb_li
 
 thiserror = "2.0"
 encdec = "0.10"
-ledger-proto = { version = "0.1", default-features = false, features = [ "std" ] }
+ledger-proto = { package = "nam-ledger-proto", version = "0.1.1-nam.0", default-features = false, features = [ "std" ] }
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 strum = { version = "0.26", features = ["derive"] }
