@@ -9,6 +9,6 @@ members = [
 ]
 
 [patch.crates-io]
-ledger-proto = { path = "proto" }
-ledger-lib = { path = "lib" }
+nam-ledger-proto = { path = "proto" }
+nam-ledger-lib = { path = "lib" }
 ledger-sim = { path = "sim" }
