@@ -1,9 +1,9 @@
 [package]
-name = "ledger-lib"
-description = "Communication library for Ledger hardware wallets"
+name = "nam-ledger-lib"
+description = "(Namada fork) Communication library for Ledger hardware wallets"
 repository = "https://github.com/ledger-community/rust-ledger.git"
 keywords = [ "ledger", "wallet", "usb", "hid", "bluetooth" ]
-version = "0.1.0"
+version = "0.1.1-nam.0"
 edition = "2021"
 license = "Apache-2.0"
 
